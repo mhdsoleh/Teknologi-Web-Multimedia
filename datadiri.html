@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Homepage DATA ENTRY</title>
+</head>
+<body>
+    <h1>Judul Homepage : Homepage DATA ENTRY</h1>
+    <form>
+        <table>
+            <tr>
+                <td>1. Nama :</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>2. NRP :</td>
+                <td><input type="text" name="nrp"></td>
+            </tr>
+            <tr>
+                <td>3. Kelas :</td>
+                <td><input type="text" name="kelas"></td>
+            </tr>
+            <tr>
+                <td>4. Jenis Kelamin :</td>
+                <td>
+                    <input type="radio" name="jenis_kelamin" value="Pria">Pria
+                    <input type="radio" name="jenis_kelamin" value="Wanita">Wanita
+                </td>
+            </tr>
+            <tr>
+                <td>5. Agama :</td>
+                <td>
+                    <select name="agama">
+                        <option value="Islam">Islam</option>
+                        <option value="Kristen">Kristen</option>
+                        <option value="Hindu">Hindu</option>
+                        <option value="Budha">Budha</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>6. Tempat/Tanggal Lahir :</td>
+                <td><input type="text" name="tempat_tanggal_lahir"></td>
+            </tr>
+            <tr>
+                <td>7. Alamat :</td>
+                <td><textarea name="alamat" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>8. Riwayat Pendidikan :</td>
+                <td>
+                    <ul>
+                        <li>SD : <input type="text" name="sd"></li>
+                        <li>SMP : <input type="text" name="smp"></li>
+                        <li>SMA : <input type="text" name="sma"></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td>9. Email :</td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>10. Homepage :</td>
+                <td><input type="text" name="homepage"></td>
+            </tr>
+            <tr>
+                <td>11. Hobby :</td>
+                <td><textarea name="hobby" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td>12. Interest :</td>
+                <td>
+                    <input type="checkbox" name="interest" value="Komputer">Komputer
+                    <input type="checkbox" name="interest" value="Sport">Sport
+                    <input type="checkbox" name="interest" value="Travelling">Travelling
+                    <input type="checkbox" name="interest" value="Writing">Writing
+                    <input type="checkbox" name="interest" value="Reading">Reading
+                </td>
+            </tr>
+        </table>
+        <input type="submit" value="Simpan">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
